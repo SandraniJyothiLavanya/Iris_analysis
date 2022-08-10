@@ -1,0 +1,16 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <form action="/predict" method="POST">
+            sepal-len:<input type="text" name="sepal_length"><br>
+            sepal-wid:<input type="text" name="sepal_width"><br>
+            petal-len:<input type="text" name="petal_length"><br>
+            petal-wid:<input type="text" name="petal_width"><br>
+
+            Class: {{result}} <br>
+            <input type="submit" value="Predict">
+        </form>
+    </body>
+</html>
